@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.0.min.js"></script>
+
+    <title>Om kollegiet</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="#" alt="Skjoldhøj logo">
+        </a>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#"> Kollegiet </a>
+                    <ul class="submenu">
+                        <li> <a href="#">Om Kollegiet</a></li>
+                        <li><a href="boligtyper.html">Boligtyper</a></li>
+                        <li><a href="#">Galleri</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Faciliteter</a>
+                    <ul class="submenu">
+                        <li><a href="#">Vaskeri</a></li>
+                        <li><a href="#">Bar</a></li>
+                        <li><a href="#">Festlokale</a></li>
+                        <li><a href="#">Sauna</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">For beboere</a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Kontakt</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class ="boks">
+    <div class="row">
+        <div class="column">
+          <h2> Kollegiets placering </h2>
+
+          <link href="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css" rel="stylesheet">
+          <script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
+          <style>
+          body { margin: 0; padding: 0; }
+          #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+          </style>
+          </head>
+          <body>
+          <div id="map"></div>
+          <script>
+              mapboxgl.accessToken = 'pk.eyJ1Ijoic2FyYTBkIiwiYSI6ImNrbnJpc2YyNDBnNnAydm83dWg5MGRrb24ifQ.Jij77jYADtWToKBAlNUr8A';
+          var map = new mapboxgl.Map({
+          container: 'map', // container id
+          style: 'mapbox://styles/sara0d/cknril1tv0td617rlrshyk3gu', // style URL
+          center: [-74.5, 40], // starting position [lng, lat]
+          zoom: 9 // starting zoom
+          });
+          </script>
+           
+
+
+
+
+        </div>
+        <div class="column">
+          <h3>info </h3>
+          <p>info</p>
+        </div>
+      </div>
+   </div>
+
+   </div>
+</body>
+
+</html>
